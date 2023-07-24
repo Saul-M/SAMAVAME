@@ -165,7 +165,7 @@ body {
 .projectTitle {
   position: relative;
   outline: black solid 10px;
-  font-size: 28px;
+  font-size: 45px;
   font-weight: 300;
   font-stretch: semi-expanded;
   width: 400px;
@@ -174,7 +174,7 @@ body {
   background-color: #dfdddd;
 }
 .projectDesc {
-  outline: #6b6b6b solid 5px;
+  outline: #6b6b6b solid 9px;
   width: 400px;
   height: 300px;
   display: flex;
