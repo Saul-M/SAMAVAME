@@ -144,7 +144,7 @@ body {
   display: inline-block;
 }
 .titleBox {
-  margin-left: 40%;
+  margin-left: 38%;
   border: 12px solid #433bff;
   background-color: #667ef4;
   width: 340px;
@@ -154,5 +154,35 @@ body {
 .titleBox h1 {
   position: relative;
   top: -55px;
-  left: 30px;
+  left: 55px;
+}
+.projectObject {
+  /*outline: red dashed 1px;*/
+  height: 300px;
+  width: 400px;
+  margin-left: 37%;
+}
+.projectTitle {
+  position: relative;
+  outline: black solid 10px;
+  font-size: 28px;
+  font-weight: 300;
+  font-stretch: semi-expanded;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background-color: #dfdddd;
+}
+.projectDesc {
+  outline: #6b6b6b solid 5px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  background-color: #dfdddd;
+}
+
+.projectDesc img {
+  /*outline: red dashed 1px;*/
+  width: 140px;
+  height: 140px;
 }
