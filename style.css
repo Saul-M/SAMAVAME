@@ -138,7 +138,7 @@ body {
   overflow-y: hidden;
 }
 .projects {
-  height: 60%;
+  height: 80%;
   width: 100%;
   background-color: #8f94c5;
   display: inline-block;
@@ -157,8 +157,8 @@ body {
   left: 55px;
 }
 .projectObject {
-  /*outline: red dashed 1px;*/
-  height: 300px;
+  outline: red dashed 1px;
+  height: 400px;
   width: 400px;
   margin-left: 37%;
 }
@@ -176,13 +176,22 @@ body {
 .projectDesc {
   outline: #6b6b6b solid 9px;
   width: 400px;
-  height: 300px;
+  height: 320px;
   display: flex;
+  font-size: 20px;
   background-color: #dfdddd;
 }
-
+.projectDesc p {
+  margin-left: 6px;
+}
 .projectDesc img {
   /*outline: red dashed 1px;*/
   width: 140px;
   height: 140px;
+}
+.links {
+  top: -50px;
+  /*outline: red dashed 1px;*/
+  position: relative;
+  display: flex;
 }
